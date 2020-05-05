@@ -1,3 +1,3 @@
-FROM docker.elastic.co/logstash/logstash-oss:6.2.4
+FROM docker.elastic.co/logstash/logstash:7.6.2
 
 RUN bin/logstash-plugin install logstash-output-gelf
